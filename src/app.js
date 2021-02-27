@@ -24,14 +24,14 @@ const partialsPath = path.join(__dirname,'../templates/partials');
   app.get('', (req, res) => {
     res.render('index', {
       'title':'Weather',
-      'name':'Diwakar'
+      'name':'Diw Cop'
     });
   });
 
   app.get('/about', (req, res) => {
     res.render('about', {
       'title':'About',
-      'name':'Diwakar'
+      'name':'Diw Cop'
     });
   });
 
@@ -39,7 +39,7 @@ const partialsPath = path.join(__dirname,'../templates/partials');
     res.render('help', {
       'message':'This is my message!',
       'title':'Help',
-      'name':'Diwakar'
+      'name':'Diw Cop'
     });
   });
 
@@ -68,7 +68,7 @@ const partialsPath = path.join(__dirname,'../templates/partials');
     res.render('error', {
       'title':'Error',
       'errorMessage':'Help article not found',
-      'name':'Diwakar'
+      'name':'Diw Cop'
     });
   });
 
@@ -76,7 +76,7 @@ const partialsPath = path.join(__dirname,'../templates/partials');
     res.render('error', {
       'title':'Error',
       'errorMessage':'Page not found',
-      'name':'Diwakar'
+      'name':'Diw Cop'
     });
   });
 
